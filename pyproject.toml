@@ -1,5 +1,5 @@
 [project]
-name = "python-project"
+name = "formulaic"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -24,13 +24,6 @@ dependencies = [
     "torchaudio>=2.6.0",
     "torchvision>=0.21.0",
 ]
-
-[project.scripts]
-python-project = "python_project:main"
-
-
-[tool.uv]
-index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
 
 [tool.uv.sources]
 common = { path = "../common", editable = true }
